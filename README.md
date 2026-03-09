@@ -1,16 +1,38 @@
-# React + Vite
+# Minesweeper React 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Classic Minesweeper game built with React. [Play now!](https://minesweeper.vercel.app)
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎯 **3 Difficulty Levels**: Easy (3 mines), Medium (10 mines), Hard (25 mines)
+- ⏱️ **Timer**: Track your best times
+- 🚩 **Flag System**: Right-click to mark mines
+- 🏆 **Leaderboard**: Top 10 scores saved locally
+- 💥 **Animations**: Explosions and smooth transitions
+- 📱 **Responsive**: Works on all devices
 
-## React Compiler
+## 🎮 How to Play
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Left Click**: Reveal a cell
+- **Right Click**: Place/remove a flag
+- **Click on mine**: Game Over 💣
+- **Reveal all safe cells**: You Win! 🎉
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite
+- CSS3
+- LocalStorage for leaderboard
+
+## 🚀 Live Demo
+
+[https://minesweeper.vercel.app](https://minesweeper.vercel.app)
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/diakn08/minesweeper.git
+cd minesweeper
+npm install
+npm run dev
